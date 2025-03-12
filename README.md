@@ -12,7 +12,7 @@ STEPS:
 4)after terrafform. tf creation
   command--> terraform init
 
-5) main.tf
+5)main.tf
  command--> terraform plan
  command--> terraform apply
  command--> docker ps
