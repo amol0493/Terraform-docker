@@ -18,6 +18,16 @@ command--> terraform apply
 command--> docker ps
 
 6)create infra.tf
+cd .. go to root user
+Before apply do --> Go to EC2 instance --> IAM user-->click on user-> user details-->give a access to s3 bucket and administrator access-->create user 
+
+after that go to security credentials--> access key-->create access--> CLI create access key -->copy this 
+after go to google ->install aws CLI -->go to EC2 instace and paste --> 
+
+command --> aws configure 
+--> key ID -->paste key from IAM user
+--> Key Passwd --> paste
+
 command --> terraform plan
 command --> terraform apply
 
