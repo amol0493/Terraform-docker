@@ -27,8 +27,9 @@ after go to google ->install aws CLI v2-->go to EC2 instace and paste -->
 command --> aws configure 
 --> key ID -->paste key from IAM user
 --> Key Passwd --> paste
-
+7)create provider.tf for region
 command --> terraform plan
 
 command --> terraform apply
+
 
