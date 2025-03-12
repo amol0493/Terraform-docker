@@ -13,9 +13,9 @@ STEPS:
   command--> terraform init
 
 5) main.tf
-command--> terraform plan
-command--> terraform apply
-command--> docker ps
+ command--> terraform plan
+ command--> terraform apply
+ command--> docker ps
 
 6)create infra.tf
 cd .. go to root user
