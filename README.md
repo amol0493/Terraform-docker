@@ -29,5 +29,6 @@ command --> aws configure
 --> Key Passwd --> paste
 
 command --> terraform plan
+
 command --> terraform apply
 
